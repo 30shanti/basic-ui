@@ -9,6 +9,7 @@ width, inline-size (논리특성)
 border, padding, margin (기본 박스모델)
 선택자 그룹핑 (선택자, 선택자 ...)
 변수(Custom Property)
+플렉스 박스 기초
 
 **techit-school** 폴더로 이동 후 **clone** 
 
