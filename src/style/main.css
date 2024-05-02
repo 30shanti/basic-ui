@@ -12,7 +12,7 @@ body {
 .visual, 
 .main, 
 .slogan, 
-.footer{
+.footer-inner{
 width:var(--container-size, 940px);
 margin: 0 auto;
 
@@ -22,11 +22,13 @@ margin: 0 auto;
 /* 헤더 */
 .header{
 background-color: yellow;
+height:10vh;
 
 }
 /* 비주얼 */
 .visual{
 background-color: pink;
+height:10vh;
 
 
 }
@@ -34,12 +36,21 @@ background-color: pink;
 /* 메인 */
 .main{
 background-color: powderblue;
+height:60vh;
+display:flex;
 
 
 }
+.group{
+    border: 1px solid red;
+flex-flow: ;
+flex-direction: ;
+}
+
 /* 슬로건 */
 .slogan{
 background-color: lime;
+height:10vh;
 
 
 }
@@ -48,4 +59,8 @@ background-color: lime;
 background-color:orange;
 
 
+}
+.footer-inner{
+    background-color: yellow;
+    height:10vh;
 }
