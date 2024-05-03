@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "five-server": "^0.3.3"
+  },
+  "dependencies": {
+    "npm-check": "^6.0.1"
   }
 }
