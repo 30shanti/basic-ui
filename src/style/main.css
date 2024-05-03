@@ -4,6 +4,7 @@
 --container-size:940px;
 }
 
+
 body {
     font-family: "Noto Sans KR", sans-serif;
 }
@@ -23,6 +24,7 @@ margin: 0 auto;
 .header{
 background-color: yellow;
 height:10vh;
+padding: 0 50px; 
 
 }
 /* 비주얼 */
@@ -38,15 +40,29 @@ height:10vh;
 background-color: powderblue;
 height:60vh;
 display:flex;
-
+flex-flow: row nowrap;
+justify-content: space-between; 
+align-items: stretch;
+padding: 28px 16px 36px;
 
 }
 .group{
-    border: 1px solid red;
-flex-flow: ;
-flex-direction: ;
-}
+    
+border: 1px solid red;
 
+}
+.group1{
+width:250px;
+
+}
+.group2{
+width:300px;
+
+}
+.group3{
+width:190px;
+
+}
 /* 슬로건 */
 .slogan{
 background-color: lime;
