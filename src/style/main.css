@@ -41,9 +41,7 @@ body {
   float:left;
 
 }
-.group:nth-child(n+2){
-margin-left: 44px;
-}
+
 
 .group1 {
   width: 250px;
@@ -87,6 +85,16 @@ margin-left: 44px;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
+.group:nth-child(n+2){
+    margin:0;
+    }
 
+
+.group3{
+order:-1;
+
+}    
 }
+
+
 
