@@ -1,0 +1,17 @@
+p{
+border: 1px solid grey;
+  background-color: skyblue;
+  /* padding:20px; */
+  inline-size: 600px;
+
+}
+
+span{
+display: inline-block;
+border: 1px solid grey;
+background: tomato;
+padding:20px;
+width: 500px;
+margin:50px 20px;
+
+}
