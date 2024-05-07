@@ -1,0 +1,52 @@
+/* 텍스트 링크 모음 */
+
+
+/* 컴포넌트  */
+.member-service{
+
+  --font-size:0.875rem;
+
+  font-size: 0;
+  background: skyblue;
+  list-style-type: none;
+  padding-inline-start: 0;
+ 
+  text-align: right;
+  color: black;
+
+li{
+  background: orange;
+  display: inline-block;
+  font-size: var(--font-size);
+  margin:0 1em;
+  
+  a{
+    padding:1em;
+    margin:0;
+    font-variant: small-caps;
+    text-transform:uppercase ;
+    color: inherit;
+    text-decoration: none;
+  }
+  /* a:link{
+    color: green;
+
+  }
+  a:visited{
+    color:silver;
+
+  }
+  a:active{
+    color:red;
+
+  }
+  a:hover a:focus{
+    color: yellow;
+  } */
+  }
+
+
+}
+
+
+
