@@ -1,0 +1,49 @@
+/* 단위 */
+/* 절대단위 -px */
+/* 상대단위 - em, rem, %, vw, cqw */
+
+html{
+font-size: 10px;
+
+}
+
+body{
+font-family:"SUIT Variable",sans-serif
+
+}
+h1{
+  /* font-family:“SUIT Variable”, sans-serif;
+
+  line-height:1;
+  
+  font-weight:100;
+  
+  font-style: italic;
+  
+  font-variant: small-caps;
+  
+  font-size:60px; */
+  font: bold italic small-caps 60px /1 “SUIT Variable”  
+}
+/* 16px *1.5*/
+  div{
+font-size: 1.5em;
+
+  }
+
+/* 상속된 글자 크기에 비례 */
+/* 32*1.5= */
+p{
+
+font-size: 2rem;
+line-height:2; 
+}
+
+@media (max-width:767px){
+p{
+font-size:3vw;
+
+}
+
+}
+
