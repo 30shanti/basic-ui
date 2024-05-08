@@ -1,0 +1,14 @@
+.sr-only{
+position: absolute;
+clip:rect(0,0,0,0);
+background: rgb(246, 4, 4);
+width: 1px;
+height: 1px;
+/* inline-size: 1px;
+block-size: 1px; */
+/* top:-9999px; */
+/* inset-block-start: -9999px; */
+overflow: hidden;
+margin:-1px;
+clip-path: polygon(0 0, 0 0, 0 0);
+}
