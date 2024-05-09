@@ -1,0 +1,29 @@
+/* 모든 디바이스  */
+
+body{
+background: skyblue;
+
+}
+
+/* 320px이상 640px이하 */
+
+@media(min-width:320px) and (max-width: 640px){
+
+
+}
+
+/* 640px 이상 디바이스 */
+
+@media(min-width:640px) and (max-width: 800px){
+
+body{  background: pink;
+  }
+
+}
+
+/* 1024px이상 디바이스 */
+@media(min-width:1024px){
+
+body{  background: tomato;
+  }
+}
