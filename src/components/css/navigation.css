@@ -1,0 +1,14 @@
+@import url(/style/reset.css);
+@import url(/style/theme.css);
+@import url(/style/base.css);
+
+body{
+margin: 50px;
+}
+
+.menu{
+background-color: orange;
+box-shadow: 0 -5px;
+}
+
+
