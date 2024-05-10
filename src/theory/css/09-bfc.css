@@ -1,0 +1,14 @@
+.box{
+background: yellow;
+
+}
+
+.box2{
+float: left;
+
+}
+
+.box3{
+  background-color: pink;
+  overflow: hidden;
+}
