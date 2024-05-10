@@ -29,7 +29,19 @@ body{
     float: left;
     border-left: 2px solid #fff;
     position: relative;
+
+    
   }
+  > li:nth-child(-n + 3) ul{
+    left: 0;
+  }
+
+  > li:nth-child(n + 4) ul{
+    right: 0;
+  }
+
+ 
+
 
   .is--active{
     button{
@@ -45,7 +57,7 @@ body{
     }
 
     ul{
-      display: block;
+      display: flex;
     }
   }
 
@@ -74,14 +86,23 @@ body{
     display: none;
     position: absolute;
     top: 65px;
-    left: 0;
-    background: pink;
-    white-space: nowrap;
+    
 
     li{
       display: inline-block;
+      white-space: nowrap;
+      margin-right: 4px;
     }
+a{
+  display: flex;
+  padding:8px;
+  gap:8px;
+  
+ 
+}
+
   }
+
 
   /* ul[aria-hidden="false"]{
     display: block;
